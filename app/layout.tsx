@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "TOKYO LIVE MAP",
-  description: "都内で今週開催されるバンド・アイドルのライブ情報",
+  title: "OTOMATCH | オトマチ",
+  description: "都内ライブ会場 週間スケジュール",
 };
 
 export default function RootLayout({
@@ -24,7 +24,7 @@ export default function RootLayout({
 }>) {
   return (
     <html
-      lang="en"
+      lang="ja"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">{children}</body>

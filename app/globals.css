@@ -1,42 +1,63 @@
-@import "tailwindcss";
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Sans+JP:wght@400;700;900&display=swap');
+@import "tailwindcss";
 
 :root {
-  --background: #0e0e0e;
-  --foreground: #f0ece4;
-  --accent: #e8003d;
-  --accent2: #ff6b00;
+  --bg: #f5f0e8;
+  --surface: #ffffff;
+  --text: #1a1612;
+  --text-muted: #7a6f65;
+  --border: #e2dbd0;
+  --orange: #f97316;
+  --orange-pale: #fff7ed;
+  --teal: #0d9488;
+  --teal-pale: #f0fdfa;
+  --sky: #38bdf8;
+  --sky-pale: #f0f9ff;
+
+  /* legacy */
+  --background: var(--bg);
+  --foreground: var(--text);
+  --accent: var(--orange);
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
+  --color-background: var(--bg);
+  --color-foreground: var(--text);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
+  background: var(--bg);
+  color: var(--text);
 }
 
 .no-scrollbar::-webkit-scrollbar { display: none; }
 .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
 
-/* Paper grain texture */
+/* Subtle paper grain */
 body::before {
   content: "";
   position: fixed;
   inset: 0;
   background-image:
-    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.75' numOctaves='4' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='300' height='300' filter='url(%23n)' opacity='0.06'/%3E%3C/svg%3E");
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.75' numOctaves='4' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='300' height='300' filter='url(%23n)' opacity='0.035'/%3E%3C/svg%3E");
   pointer-events: none;
   z-index: 9999;
-  mix-blend-mode: overlay;
+  mix-blend-mode: multiply;
 }
 
-/* Halftone-style dot pattern for header */
-.header-dots {
-  background-image: radial-gradient(circle, rgba(255,255,255,0.06) 1px, transparent 1px);
-  background-size: 20px 20px;
+/* Dot grid pattern for header */
+.header-grid {
+  background-image: radial-gradient(circle, rgba(249,115,22,0.12) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+/* Card hover */
+.live-card {
+  transition: transform 0.18s ease, box-shadow 0.18s ease;
+}
+.live-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.1);
 }
