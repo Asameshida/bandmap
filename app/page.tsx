@@ -37,7 +37,7 @@ export default function Home() {
 
           {/* Main title */}
           <h1 className="font-black tracking-tighter leading-none uppercase"
-            style={{ fontSize: "clamp(3rem, 10vw, 7rem)", fontFamily: "'Bebas Neue', sans-serif", letterSpacing: "-0.02em" }}>
+            style={{ fontSize: "clamp(1rem, 3.3vw, 2.3rem)", fontFamily: "'Bebas Neue', sans-serif", letterSpacing: "-0.02em" }}>
             <span style={{ color: "var(--foreground)" }}>LIVE</span>
             <span style={{ color: "var(--accent)", marginLeft: "0.15em" }}>MAP</span>
           </h1>
