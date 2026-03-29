@@ -6,21 +6,28 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "scrape": "ts-node --project tsconfig.scraper.json scraper/run.ts",
+    "scrape:venue": "ts-node --project tsconfig.scraper.json scraper/run.ts",
+    "merge": "ts-node --project tsconfig.scraper.json scraper/merge.ts"
   },
   "dependencies": {
+    "axios": "^1.14.0",
+    "cheerio": "^1.2.0",
     "next": "16.2.1",
     "react": "19.2.4",
     "react-dom": "19.2.4"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
+    "@types/cheerio": "^0.22.35",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "16.2.1",
     "tailwindcss": "^4",
+    "ts-node": "^10.9.2",
     "typescript": "^5"
   }
 }

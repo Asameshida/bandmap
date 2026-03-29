@@ -1,0 +1,337 @@
+{
+  "venue": "Shinjuku LOFT",
+  "area": "Shinjuku",
+  "source_url": "http://www.loft-prj.co.jp/schedule/loft",
+  "last_fetched_at": "2026-03-29T03:41:25.689Z",
+  "events": [
+    {
+      "date": "2026-03-29",
+      "artists": [
+        {
+          "name": "【From 沖縄】Gajumaru / ずっちーず / クロムレイリー / 愛香",
+          "original_order": 1,
+          "display_priority": null,
+          "trend_score": null,
+          "youtube_video_id": "",
+          "thumbnail_url": ""
+        },
+        {
+          "name": "【From 東京】WENDY / SPRINGMAN / HASHIRIBI",
+          "original_order": 2,
+          "display_priority": null,
+          "trend_score": null,
+          "youtube_video_id": "",
+          "thumbnail_url": ""
+        }
+      ]
+    },
+    {
+      "date": "2026-03-29",
+      "artists": [
+        {
+          "name": "luvliminall",
+          "original_order": 1,
+          "display_priority": null,
+          "trend_score": null,
+          "youtube_video_id": "",
+          "thumbnail_url": ""
+        },
+        {
+          "name": "BYOKA",
+          "original_order": 2,
+          "display_priority": null,
+          "trend_score": null,
+          "youtube_video_id": "",
+          "thumbnail_url": ""
+        },
+        {
+          "name": "宇宙団",
+          "original_order": 3,
+          "display_priority": null,
+          "trend_score": null,
+          "youtube_video_id": "",
+          "thumbnail_url": ""
+        }
+      ]
+    },
+    {
+      "date": "2026-03-30",
+      "artists": [
+        {
+          "name": "最鋭輝",
+          "original_order": 1,
+          "display_priority": null,
+          "trend_score": null,
+          "youtube_video_id": "",
+          "thumbnail_url": ""
+        },
+        {
+          "name": "ゆらぴこ",
+          "original_order": 2,
+          "display_priority": null,
+          "trend_score": null,
+          "youtube_video_id": "",
+          "thumbnail_url": ""
+        },
+        {
+          "name": "激！アツシ",
+          "original_order": 3,
+          "display_priority": null,
+          "trend_score": null,
+          "youtube_video_id": "",
+          "thumbnail_url": ""
+        }
+      ]
+    },
+    {
+      "date": "2026-03-30",
+      "artists": [
+        {
+          "name": "まねきケチャ",
+          "original_order": 1,
+          "display_priority": null,
+          "trend_score": null,
+          "youtube_video_id": "",
+          "thumbnail_url": ""
+        }
+      ]
+    },
+    {
+      "date": "2026-03-31",
+      "artists": [
+        {
+          "name": "CoTei",
+          "original_order": 1,
+          "display_priority": null,
+          "trend_score": null,
+          "youtube_video_id": "",
+          "thumbnail_url": ""
+        },
+        {
+          "name": "会心ノ一撃",
+          "original_order": 2,
+          "display_priority": null,
+          "trend_score": null,
+          "youtube_video_id": "",
+          "thumbnail_url": ""
+        },
+        {
+          "name": "SUMMER ROCKET",
+          "original_order": 3,
+          "display_priority": null,
+          "trend_score": null,
+          "youtube_video_id": "",
+          "thumbnail_url": ""
+        }
+      ]
+    },
+    {
+      "date": "2026-04-01",
+      "artists": [
+        {
+          "name": "滄茫RESONICA",
+          "original_order": 1,
+          "display_priority": null,
+          "trend_score": null,
+          "youtube_video_id": "",
+          "thumbnail_url": ""
+        },
+        {
+          "name": "ΩMG",
+          "original_order": 2,
+          "display_priority": null,
+          "trend_score": null,
+          "youtube_video_id": "",
+          "thumbnail_url": ""
+        },
+        {
+          "name": "DIZZY REVERSE",
+          "original_order": 3,
+          "display_priority": null,
+          "trend_score": null,
+          "youtube_video_id": "",
+          "thumbnail_url": ""
+        }
+      ]
+    },
+    {
+      "date": "2026-04-03",
+      "artists": [
+        {
+          "name": "ニューロティカ",
+          "original_order": 1,
+          "display_priority": null,
+          "trend_score": null,
+          "youtube_video_id": "",
+          "thumbnail_url": ""
+        },
+        {
+          "name": "ピーズ",
+          "original_order": 2,
+          "display_priority": null,
+          "trend_score": null,
+          "youtube_video_id": "",
+          "thumbnail_url": ""
+        },
+        {
+          "name": "HAT TRICKERS",
+          "original_order": 3,
+          "display_priority": null,
+          "trend_score": null,
+          "youtube_video_id": "",
+          "thumbnail_url": ""
+        }
+      ]
+    },
+    {
+      "date": "2026-04-04",
+      "artists": [
+        {
+          "name": "BRAVE LION",
+          "original_order": 1,
+          "display_priority": null,
+          "trend_score": null,
+          "youtube_video_id": "",
+          "thumbnail_url": ""
+        },
+        {
+          "name": "The DROPS",
+          "original_order": 2,
+          "display_priority": null,
+          "trend_score": null,
+          "youtube_video_id": "",
+          "thumbnail_url": ""
+        },
+        {
+          "name": "ROLLINGS",
+          "original_order": 3,
+          "display_priority": null,
+          "trend_score": null,
+          "youtube_video_id": "",
+          "thumbnail_url": ""
+        }
+      ]
+    },
+    {
+      "date": "2026-04-04",
+      "artists": [
+        {
+          "name": "CROW DRAGON TEA",
+          "original_order": 1,
+          "display_priority": null,
+          "trend_score": null,
+          "youtube_video_id": "",
+          "thumbnail_url": ""
+        },
+        {
+          "name": "DEEPSLAUTER",
+          "original_order": 2,
+          "display_priority": null,
+          "trend_score": null,
+          "youtube_video_id": "",
+          "thumbnail_url": ""
+        },
+        {
+          "name": "ENDZWECK",
+          "original_order": 3,
+          "display_priority": null,
+          "trend_score": null,
+          "youtube_video_id": "",
+          "thumbnail_url": ""
+        }
+      ]
+    },
+    {
+      "date": "2026-04-05",
+      "artists": [
+        {
+          "name": "Omnivore Note",
+          "original_order": 1,
+          "display_priority": null,
+          "trend_score": null,
+          "youtube_video_id": "",
+          "thumbnail_url": ""
+        },
+        {
+          "name": "限界集落",
+          "original_order": 2,
+          "display_priority": null,
+          "trend_score": null,
+          "youtube_video_id": "",
+          "thumbnail_url": ""
+        },
+        {
+          "name": "ちりんみー",
+          "original_order": 3,
+          "display_priority": null,
+          "trend_score": null,
+          "youtube_video_id": "",
+          "thumbnail_url": ""
+        }
+      ]
+    },
+    {
+      "date": "2026-04-06",
+      "artists": [
+        {
+          "name": "UtaGe!",
+          "original_order": 1,
+          "display_priority": null,
+          "trend_score": null,
+          "youtube_video_id": "",
+          "thumbnail_url": ""
+        },
+        {
+          "name": "chuLa",
+          "original_order": 2,
+          "display_priority": null,
+          "trend_score": null,
+          "youtube_video_id": "",
+          "thumbnail_url": ""
+        },
+        {
+          "name": "Peel the Apple",
+          "original_order": 3,
+          "display_priority": null,
+          "trend_score": null,
+          "youtube_video_id": "",
+          "thumbnail_url": ""
+        }
+      ]
+    },
+    {
+      "date": "2026-04-07",
+      "artists": [
+        {
+          "name": "阿部浩二",
+          "original_order": 1,
+          "display_priority": null,
+          "trend_score": null,
+          "youtube_video_id": "",
+          "thumbnail_url": ""
+        }
+      ]
+    },
+    {
+      "date": "2026-04-08",
+      "artists": [
+        {
+          "name": "ハク。",
+          "original_order": 1,
+          "display_priority": null,
+          "trend_score": null,
+          "youtube_video_id": "",
+          "thumbnail_url": ""
+        },
+        {
+          "name": "PompadollS",
+          "original_order": 2,
+          "display_priority": null,
+          "trend_score": null,
+          "youtube_video_id": "",
+          "thumbnail_url": ""
+        }
+      ]
+    }
+  ]
+}

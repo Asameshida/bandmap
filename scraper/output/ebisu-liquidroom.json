@@ -1,0 +1,437 @@
+{
+  "venue": "Ebisu LIQUIDROOM",
+  "area": "Ebisu",
+  "source_url": "https://www.liquidroom.net/schedule",
+  "last_fetched_at": "2026-03-29T03:45:46.832Z",
+  "events": [
+    {
+      "date": "2026-03-01",
+      "artists": [
+        {
+          "name": "シンダーエラ",
+          "original_order": 1,
+          "display_priority": null,
+          "trend_score": null,
+          "youtube_video_id": "",
+          "thumbnail_url": ""
+        }
+      ]
+    },
+    {
+      "date": "2026-03-02",
+      "artists": [
+        {
+          "name": "Dragon Ash / Age Factory",
+          "original_order": 1,
+          "display_priority": null,
+          "trend_score": null,
+          "youtube_video_id": "",
+          "thumbnail_url": ""
+        }
+      ]
+    },
+    {
+      "date": "2026-03-03",
+      "artists": [
+        {
+          "name": "SITUASION",
+          "original_order": 1,
+          "display_priority": null,
+          "trend_score": null,
+          "youtube_video_id": "",
+          "thumbnail_url": ""
+        }
+      ]
+    },
+    {
+      "date": "2026-03-04",
+      "artists": [
+        {
+          "name": "sometimes",
+          "original_order": 1,
+          "display_priority": null,
+          "trend_score": null,
+          "youtube_video_id": "",
+          "thumbnail_url": ""
+        }
+      ]
+    },
+    {
+      "date": "2026-03-05",
+      "artists": [
+        {
+          "name": "ライブナタリー “MONO NO AWARE × kurayamisaka”",
+          "original_order": 1,
+          "display_priority": null,
+          "trend_score": null,
+          "youtube_video_id": "",
+          "thumbnail_url": ""
+        }
+      ]
+    },
+    {
+      "date": "2026-03-06",
+      "artists": [
+        {
+          "name": "有村竜太朗",
+          "original_order": 1,
+          "display_priority": null,
+          "trend_score": null,
+          "youtube_video_id": "",
+          "thumbnail_url": ""
+        }
+      ]
+    },
+    {
+      "date": "2026-03-07",
+      "artists": [
+        {
+          "name": "My_Stage",
+          "original_order": 1,
+          "display_priority": null,
+          "trend_score": null,
+          "youtube_video_id": "",
+          "thumbnail_url": ""
+        }
+      ]
+    },
+    {
+      "date": "2026-03-08",
+      "artists": [
+        {
+          "name": "Guiano",
+          "original_order": 1,
+          "display_priority": null,
+          "trend_score": null,
+          "youtube_video_id": "",
+          "thumbnail_url": ""
+        }
+      ]
+    },
+    {
+      "date": "2026-03-09",
+      "artists": [
+        {
+          "name": "MiX BeRRY",
+          "original_order": 1,
+          "display_priority": null,
+          "trend_score": null,
+          "youtube_video_id": "",
+          "thumbnail_url": ""
+        }
+      ]
+    },
+    {
+      "date": "2026-03-10",
+      "artists": [
+        {
+          "name": "誠子",
+          "original_order": 1,
+          "display_priority": null,
+          "trend_score": null,
+          "youtube_video_id": "",
+          "thumbnail_url": ""
+        }
+      ]
+    },
+    {
+      "date": "2026-03-11",
+      "artists": [
+        {
+          "name": "feelNEO",
+          "original_order": 1,
+          "display_priority": null,
+          "trend_score": null,
+          "youtube_video_id": "",
+          "thumbnail_url": ""
+        }
+      ]
+    },
+    {
+      "date": "2026-03-12",
+      "artists": [
+        {
+          "name": "OKAMOTO’S",
+          "original_order": 1,
+          "display_priority": null,
+          "trend_score": null,
+          "youtube_video_id": "",
+          "thumbnail_url": ""
+        }
+      ]
+    },
+    {
+      "date": "2026-03-13",
+      "artists": [
+        {
+          "name": "雨のパレード",
+          "original_order": 1,
+          "display_priority": null,
+          "trend_score": null,
+          "youtube_video_id": "",
+          "thumbnail_url": ""
+        }
+      ]
+    },
+    {
+      "date": "2026-03-14",
+      "artists": [
+        {
+          "name": "Appare!",
+          "original_order": 1,
+          "display_priority": null,
+          "trend_score": null,
+          "youtube_video_id": "",
+          "thumbnail_url": ""
+        }
+      ]
+    },
+    {
+      "date": "2026-03-14",
+      "artists": [
+        {
+          "name": "Appare!",
+          "original_order": 1,
+          "display_priority": null,
+          "trend_score": null,
+          "youtube_video_id": "",
+          "thumbnail_url": ""
+        }
+      ]
+    },
+    {
+      "date": "2026-03-15",
+      "artists": [
+        {
+          "name": "betcover!! / 石橋英子",
+          "original_order": 1,
+          "display_priority": null,
+          "trend_score": null,
+          "youtube_video_id": "",
+          "thumbnail_url": ""
+        }
+      ]
+    },
+    {
+      "date": "2026-03-16",
+      "artists": [
+        {
+          "name": "多次元制御機構よだか",
+          "original_order": 1,
+          "display_priority": null,
+          "trend_score": null,
+          "youtube_video_id": "",
+          "thumbnail_url": ""
+        }
+      ]
+    },
+    {
+      "date": "2026-03-17",
+      "artists": [
+        {
+          "name": "UNDERCITY",
+          "original_order": 1,
+          "display_priority": null,
+          "trend_score": null,
+          "youtube_video_id": "",
+          "thumbnail_url": ""
+        }
+      ]
+    },
+    {
+      "date": "2026-03-18",
+      "artists": [
+        {
+          "name": "Homecomings",
+          "original_order": 1,
+          "display_priority": null,
+          "trend_score": null,
+          "youtube_video_id": "",
+          "thumbnail_url": ""
+        }
+      ]
+    },
+    {
+      "date": "2026-03-19",
+      "artists": [
+        {
+          "name": "The fin.",
+          "original_order": 1,
+          "display_priority": null,
+          "trend_score": null,
+          "youtube_video_id": "",
+          "thumbnail_url": ""
+        }
+      ]
+    },
+    {
+      "date": "2026-03-20",
+      "artists": [
+        {
+          "name": "えんぷてい",
+          "original_order": 1,
+          "display_priority": null,
+          "trend_score": null,
+          "youtube_video_id": "",
+          "thumbnail_url": ""
+        }
+      ]
+    },
+    {
+      "date": "2026-03-21",
+      "artists": [
+        {
+          "name": "‘MAYSON’s PARTY",
+          "original_order": 1,
+          "display_priority": null,
+          "trend_score": null,
+          "youtube_video_id": "",
+          "thumbnail_url": ""
+        }
+      ]
+    },
+    {
+      "date": "2026-03-22",
+      "artists": [
+        {
+          "name": "TOYBEE",
+          "original_order": 1,
+          "display_priority": null,
+          "trend_score": null,
+          "youtube_video_id": "",
+          "thumbnail_url": ""
+        }
+      ]
+    },
+    {
+      "date": "2026-03-23",
+      "artists": [
+        {
+          "name": "零[Hz]",
+          "original_order": 1,
+          "display_priority": null,
+          "trend_score": null,
+          "youtube_video_id": "",
+          "thumbnail_url": ""
+        }
+      ]
+    },
+    {
+      "date": "2026-03-24",
+      "artists": [
+        {
+          "name": "サークルライチ主催『打ち上げ編』",
+          "original_order": 1,
+          "display_priority": null,
+          "trend_score": null,
+          "youtube_video_id": "",
+          "thumbnail_url": ""
+        }
+      ]
+    },
+    {
+      "date": "2026-03-25",
+      "artists": [
+        {
+          "name": "JAM HEADS",
+          "original_order": 1,
+          "display_priority": null,
+          "trend_score": null,
+          "youtube_video_id": "",
+          "thumbnail_url": ""
+        }
+      ]
+    },
+    {
+      "date": "2026-03-26",
+      "artists": [
+        {
+          "name": "ASOUND",
+          "original_order": 1,
+          "display_priority": null,
+          "trend_score": null,
+          "youtube_video_id": "",
+          "thumbnail_url": ""
+        }
+      ]
+    },
+    {
+      "date": "2026-03-27",
+      "artists": [
+        {
+          "name": "kobore",
+          "original_order": 1,
+          "display_priority": null,
+          "trend_score": null,
+          "youtube_video_id": "",
+          "thumbnail_url": ""
+        }
+      ]
+    },
+    {
+      "date": "2026-03-28",
+      "artists": [
+        {
+          "name": "柴田聡子",
+          "original_order": 1,
+          "display_priority": null,
+          "trend_score": null,
+          "youtube_video_id": "",
+          "thumbnail_url": ""
+        }
+      ]
+    },
+    {
+      "date": "2026-03-28",
+      "artists": [
+        {
+          "name": "RPR SOUNDSYSTEM",
+          "original_order": 1,
+          "display_priority": null,
+          "trend_score": null,
+          "youtube_video_id": "",
+          "thumbnail_url": ""
+        }
+      ]
+    },
+    {
+      "date": "2026-03-29",
+      "artists": [
+        {
+          "name": "yosugala",
+          "original_order": 1,
+          "display_priority": null,
+          "trend_score": null,
+          "youtube_video_id": "",
+          "thumbnail_url": ""
+        }
+      ]
+    },
+    {
+      "date": "2026-03-30",
+      "artists": [
+        {
+          "name": "SHO-SENSEI!!",
+          "original_order": 1,
+          "display_priority": null,
+          "trend_score": null,
+          "youtube_video_id": "",
+          "thumbnail_url": ""
+        }
+      ]
+    },
+    {
+      "date": "2026-03-31",
+      "artists": [
+        {
+          "name": "Dios",
+          "original_order": 1,
+          "display_priority": null,
+          "trend_score": null,
+          "youtube_video_id": "",
+          "thumbnail_url": ""
+        }
+      ]
+    }
+  ]
+}

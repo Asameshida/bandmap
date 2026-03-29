@@ -1,65 +1,74 @@
-import Image from "next/image";
+import { getWeekDates, getLivesByDate } from "@/app/lib/getLives";
+import DateTabs from "@/app/components/DateTabs";
+import LiveGrid from "@/app/components/LiveGrid";
 
 export default function Home() {
+  const dates = getWeekDates();
+
+  const livesByDate: Record<string, ReturnType<typeof getLivesByDate>> = {};
+  const liveCounts: Record<string, number> = {};
+  for (const date of dates) {
+    const lives = getLivesByDate(date);
+    livesByDate[date] = lives;
+    liveCounts[date] = lives.length;
+  }
+
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
+    <div className="min-h-screen" style={{ background: "var(--background)", color: "var(--foreground)" }}>
+
+      {/* Header */}
+      <header className="relative overflow-hidden header-dots" style={{ borderBottom: "2px solid #222" }}>
+        {/* Red slash accent */}
+        <div className="absolute top-0 left-0 w-2 h-full" style={{ background: "var(--accent)" }} />
+        <div className="absolute -top-12 -right-12 w-64 h-64 rounded-full opacity-10"
+          style={{ background: "radial-gradient(circle, #e8003d, transparent 70%)" }} />
+
+        <div className="px-8 pt-10 pb-8 max-w-screen-xl mx-auto">
+          {/* Eyebrow */}
+          <div className="flex items-center gap-3 mb-5">
+            <span className="text-[10px] font-bold tracking-[0.4em] uppercase px-2 py-1"
+              style={{ background: "var(--accent)", color: "#fff" }}>
+              TOKYO
+            </span>
+            <span className="text-xs tracking-widest uppercase" style={{ color: "#555" }}>
+              Underground Live Guide
+            </span>
+          </div>
+
+          {/* Main title */}
+          <h1 className="font-black tracking-tighter leading-none uppercase"
+            style={{ fontSize: "clamp(3rem, 10vw, 7rem)", fontFamily: "'Bebas Neue', sans-serif", letterSpacing: "-0.02em" }}>
+            <span style={{ color: "var(--foreground)" }}>LIVE</span>
+            <span style={{ color: "var(--accent)", marginLeft: "0.15em" }}>MAP</span>
           </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
+
+          {/* Subtitle bar */}
+          <div className="flex items-center gap-4 mt-4">
+            <div className="h-px flex-1" style={{ background: "#333" }} />
+            <p className="text-xs tracking-widest uppercase whitespace-nowrap" style={{ color: "#666" }}>
+              都内ライブ会場 週間スケジュール
+            </p>
+            <div className="h-px flex-1" style={{ background: "#333" }} />
+          </div>
         </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
-        </div>
-      </main>
+      </header>
+
+      {/* Sticky Date Tabs */}
+      <div className="sticky top-0 z-20 max-w-screen-xl mx-auto"
+        style={{ background: "rgba(14,14,14,0.95)", backdropFilter: "blur(12px)", borderBottom: "1px solid #1e1e1e" }}>
+        <DateTabs dates={dates} liveCounts={liveCounts} />
+      </div>
+
+      {/* Live Grid */}
+      <div className="max-w-screen-xl mx-auto px-4">
+        <LiveGrid livesByDate={livesByDate} dates={dates} />
+      </div>
+
+      {/* Footer */}
+      <footer className="mt-16 py-8 px-8 text-center text-xs uppercase tracking-widest"
+        style={{ borderTop: "1px solid #1a1a1a", color: "#444" }}>
+        TOKYO LIVE MAP &nbsp;/&nbsp; {new Date().getFullYear()}
+      </footer>
     </div>
   );
 }
