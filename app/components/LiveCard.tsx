@@ -3,12 +3,18 @@
 import Image from "next/image";
 import { useState } from "react";
 import { Live } from "@/app/types";
+import { getYouTubeVideoId, getYouTubeThumbnail, getYouTubeUrl } from "@/app/lib/artistMedia";
 
 function ArtistCard({ artist, live }: { artist: string; live: Live }) {
   const [imgError, setImgError] = useState(false);
-  const imgSrc = live.imageUrl || `https://unavatar.io/twitter/${encodeURIComponent(artist)}`;
 
-  return (
+  const youtubeId = getYouTubeVideoId(artist);
+  const imgSrc = youtubeId
+    ? getYouTubeThumbnail(youtubeId)
+    : (live.imageUrl || `https://unavatar.io/twitter/${encodeURIComponent(artist)}`);
+  const linkUrl = youtubeId ? getYouTubeUrl(youtubeId) : live.ticketUrl || live.sourceUrl || null;
+
+  const cardContent = (
     <div className="group cursor-pointer" style={{ fontFamily: "inherit" }}>
       {/* Image */}
       <div className="relative w-full overflow-hidden bg-zinc-900"
@@ -42,6 +48,14 @@ function ArtistCard({ artist, live }: { artist: string; live: Live }) {
             {live.openTime}
           </div>
         )}
+
+        {/* YouTube badge */}
+        {youtubeId && (
+          <div className="absolute top-2 right-2 text-[10px] font-bold px-1.5 py-0.5 tracking-wider"
+            style={{ background: "#ff0000", color: "#fff" }}>
+            ▶ YT
+          </div>
+        )}
       </div>
 
       {/* Info */}
@@ -56,6 +70,15 @@ function ArtistCard({ artist, live }: { artist: string; live: Live }) {
       </div>
     </div>
   );
+
+  if (linkUrl) {
+    return (
+      <a href={linkUrl} target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none" }}>
+        {cardContent}
+      </a>
+    );
+  }
+  return cardContent;
 }
 
 export default function LiveCard({ live }: { live: Live }) {
